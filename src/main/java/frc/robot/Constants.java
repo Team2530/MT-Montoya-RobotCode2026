@@ -16,6 +16,22 @@ public final class Constants {
     public static final double DEADZONE = 0.05;
     public static final int X_DUMPER_ROTATE = 6;
   }
+  public static final class ArmConstants {
+
+    public static class ArmMotor {
+      public static final int CAN_ID = 9; //TODO: CAN_ID is placeholder for now 
+      public static final boolean INVERTED = false; 
+    } //TODO: Below is only placeholder - Eli
+    public static final double kP = 0;
+    public static final double kI = 0;
+    public static final double kD = 0;
+    //TODO: Below is only placeholder - Eli
+    public static final double kS = 0;
+    public static final double kV = 0;
+    public static final double kA = 0;
+    public static final double kg = 0;
+
+  }
 
   /** Drive Constants and Drive related simulation constants */
   public static final class Drive {
